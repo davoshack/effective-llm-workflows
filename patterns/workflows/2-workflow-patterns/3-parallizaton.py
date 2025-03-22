@@ -4,7 +4,7 @@ import logging
 import nest_asyncio
 from openai import AsyncOpenAI
 from pydantic import BaseModel, Field
-from aicookbook_custom_utils.helper import get_openai_api_key
+from ai_custom_utils.helper import get_openai_api_key
 
 nest_asyncio.apply()
 

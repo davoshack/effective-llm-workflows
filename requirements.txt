@@ -6,3 +6,5 @@ python-dotenv
 openai
 pydantic
 setuptools
+
+git+https://github.com/davoshack/ai-custom-utils.git

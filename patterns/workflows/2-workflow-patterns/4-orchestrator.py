@@ -1,7 +1,7 @@
 from typing import List, Dict
 from pydantic import BaseModel, Field
 from openai import OpenAI
-from aicookbook_custom_utils.helper import get_openai_api_key
+from ai_custom_utils.helper import get_openai_api_key
 
 import os
 import logging

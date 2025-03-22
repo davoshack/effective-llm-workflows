@@ -1,7 +1,7 @@
 from typing import Optional, Literal
 from pydantic import BaseModel, Field
 from openai import OpenAI
-from aicookbook_custom_utils.helper import get_openai_api_key
+from ai_custom_utils.helper import get_openai_api_key
 import logging
 
 # Set up logging configuration

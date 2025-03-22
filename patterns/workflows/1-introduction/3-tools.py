@@ -4,7 +4,7 @@ import requests
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
-from aicookbook_custom_utils.helper import get_openai_api_key
+from ai_custom_utils.helper import get_openai_api_key
 
 client = OpenAI(api_key=get_openai_api_key())
 
